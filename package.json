@@ -6,7 +6,7 @@
   "scripts": {
     "test:api": "jest tests/api.test.js",
     "test:websocket": "jest tests/websocket.test.js --detectOpenHandles",
-    "test:websocket2": "jest tests/websocket.test.js --detectOpenHandles",
+    "test:websocket2": "jest tests/websocket2.test.js --detectOpenHandles",
     "lint": "eslint ./websocketServer.js && eslint ./apiServer.js"
   },
   "author": "",
