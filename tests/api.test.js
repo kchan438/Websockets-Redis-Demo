@@ -39,7 +39,7 @@ describe("Default Route Should be failed code 404", () => {
         const data1 = JSON.parse(publishMock.mock.calls[0][1]);
         expect(data1.userId).toBe(random1);
         expect(data1.text).toBe(random2);
-        done();
       });
+      done();
   });
 });
