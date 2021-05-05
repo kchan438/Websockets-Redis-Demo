@@ -13,7 +13,7 @@ app.get('/api/doSomething', (req, res) => {
     text: req.query.text,
   };
   redisClient.publish('testPublish', JSON.stringify(redisData));
-  // redisClient.publish('testPublish', JSON.stringify());
+  redisClient.publish('testPublish', JSON.stringify(redisData));
   res.sendStatus(200);
 });
 
